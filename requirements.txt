@@ -1,0 +1,10 @@
+openai
+langchain
+crewai
+serper
+python-dotenv
+beautifulsoup4
+fpdf
+pandas
+requests
+dotenv
