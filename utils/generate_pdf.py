@@ -1,5 +1,6 @@
 from fpdf import FPDF
 import os
+import re
 
 class PDF(FPDF):
     def header(self):
@@ -9,11 +10,15 @@ class PDF(FPDF):
 
     def chapter_title(self, title):
         self.set_font("Arial", "B", 11)
+        # Remove emojis from title
+        title = re.sub(r'[\U0001F300-\U0001F9FF]', '', title)
         self.cell(0, 10, title, 0, 1, "L")
         self.ln(2)
 
     def chapter_body(self, body):
         self.set_font("Arial", "", 10)
+        # Remove emojis from body
+        body = re.sub(r'[\U0001F300-\U0001F9FF]', '', body)
         self.multi_cell(0, 7, body)
         self.ln()
 

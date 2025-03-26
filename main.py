@@ -4,12 +4,16 @@ from agents.summarizer_agent import summarize_articles
 from agents.investment_advisor import compare_investments
 from utils.generate_pdf import markdown_to_pdf
 from langchain_openai import ChatOpenAI
-from utils.config import OPENAI_API_KEY, SERPER_API_KEY
+from utils.config import OPENAI_API_KEY
+from dotenv import load_dotenv
 
-print("[DEBUG] OPENAI_API_KEY:", OPENAI_API_KEY[:6], "...")
-print("[DEBUG] SERPER_API_KEY:", SERPER_API_KEY[:6], "...")
-
-
+# Debug logging
+print("[DEBUG] Current working directory:", os.getcwd())
+print("[DEBUG] .env file exists:", os.path.exists('.env'))
+load_dotenv()  # Explicitly load .env file
+print("[DEBUG] OPENAI_API_KEY loaded:", bool(OPENAI_API_KEY))
+print("[DEBUG] OPENAI_API_KEY length:", len(OPENAI_API_KEY) if OPENAI_API_KEY else 0)
+print("[DEBUG] First few characters of API key:", OPENAI_API_KEY[:6] + "..." if OPENAI_API_KEY else "None")
 
 # Create folders if not exist
 os.makedirs("reports", exist_ok=True)

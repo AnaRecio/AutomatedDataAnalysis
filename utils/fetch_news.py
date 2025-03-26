@@ -1,54 +1,22 @@
-# utils/fetch_news.py
+from langchain.tools import DuckDuckGoSearchRun
 
-import requests
-from utils.config import SERPER_API_KEY
+search_tool = DuckDuckGoSearchRun()
 
 def fetch_news_articles(query: str, num_results: int = 5):
     """
-    Uses Serper.dev (Google Search API) to retrieve relevant article links and snippets.
-    
-    Parameters:
-        query (str): The search query (e.g., "Apple stock Q1 2025").
-        num_results (int): Number of articles to retrieve (default is 5).
-
-    Returns:
-        List[Dict]: List of articles, each with title, link, and snippet.
+    Uses DuckDuckGo to perform a web search for the given query.
+    Returns a list of dicts containing dummy 'title', 'link', and 'snippet'.
+    DuckDuckGoSearchRun returns a single string summary, so we simulate articles.
     """
-    url = "https://google.serper.dev/search"
-    headers = {
-        "X-API-KEY": SERPER_API_KEY,
-        "Content-Type": "application/json"
-    }
-    payload = {
-        "q": query,
-        "num": num_results
-    }
+    print(f"🌐 Searching DuckDuckGo for: {query}")
+    raw_result = search_tool.run(query)
 
-    try:
-        response = requests.post(url, json=payload, headers=headers)
+    # Simulate article list from the plain result string
+    articles = [{
+        "title": f"{query} - Result {i+1}",
+        "link": "https://www.duckduckgo.com",
+        "snippet": snippet.strip()
+    } for i, snippet in enumerate(raw_result.split("\n")) if snippet.strip()][:num_results]
 
-        if response.status_code == 403:
-            print("❌ ERROR: 403 Forbidden. Check your Serper API key or usage limits.")
-            print("🔗 Request URL:", url)
-            print("📦 Payload:", payload)
-            print("🔑 API Key prefix:", SERPER_API_KEY[:6], "... (truncated)")
-            print("💬 Response message:", response.text)
-
-        response.raise_for_status()
-
-        results = response.json()
-        articles = []
-
-        for item in results.get("news", []):
-            articles.append({
-                "title": item.get("title"),
-                "link": item.get("link"),
-                "snippet": item.get("snippet")
-            })
-
-        return articles
-
-    except requests.exceptions.RequestException as e:
-        print(f"🚨 Request failed: {e}")
-        return []
+    return articles
 
