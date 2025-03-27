@@ -1,4 +1,4 @@
-# Python bytecode
+# Bytecode and compiled files
 __pycache__/
 *.py[cod]
 *.pyo
@@ -6,25 +6,28 @@ __pycache__/
 # Virtual environments
 env/
 venv/
+.venv/
 
 # Environment variables
 .env
+.env.*
 
 # IDE/editor configs
 .vscode/
 .idea/
 *.swp
 
-# OS files
+# OS metadata
 .DS_Store
 Thumbs.db
 
-# Report files
+# Output reports and generated content
 *.pdf
 *.md~
+reports/
+charts/
 
-# Log files
+# Logs and runtime artifacts
 *.log
-
-# Cache files
 *.cache
+

@@ -1,22 +1,44 @@
-from langchain.tools import DuckDuckGoSearchRun
+import requests
+from utils.config import SERPER_API_KEY
+from utils.clean_text import clean_snippet
 
-search_tool = DuckDuckGoSearchRun()
-
-def fetch_news_articles(query: str, num_results: int = 5):
+def fetch_news_articles(query: str, num_results: int = 5) -> list[dict]:
     """
-    Uses DuckDuckGo to perform a web search for the given query.
-    Returns a list of dicts containing dummy 'title', 'link', and 'snippet'.
-    DuckDuckGoSearchRun returns a single string summary, so we simulate articles.
+    Fetches news articles from Serper.dev (Google Search API).
+    Returns a list of dicts with: title, snippet, link.
     """
-    print(f"🌐 Searching DuckDuckGo for: {query}")
-    raw_result = search_tool.run(query)
+    url = "https://google.serper.dev/news"
+    headers = {
+        "X-API-KEY": SERPER_API_KEY,
+        "Content-Type": "application/json"
+    }
+    payload = {
+        "q": query,
+        "num": num_results
+    }
 
-    # Simulate article list from the plain result string
-    articles = [{
-        "title": f"{query} - Result {i+1}",
-        "link": "https://www.duckduckgo.com",
-        "snippet": snippet.strip()
-    } for i, snippet in enumerate(raw_result.split("\n")) if snippet.strip()][:num_results]
+    try:
+        # Send POST request to Serper's news endpoint
+        response = requests.post(url, json=payload, headers=headers)
+        response.raise_for_status()
+        results = response.json()
 
-    return articles
+        articles = []
+        # Parse and clean the top `num_results` news items
+        for item in results.get("news", [])[:num_results]:
+            articles.append({
+                "title": item.get("title", "").strip(),
+                "link": item.get("link", "").strip(),
+                "snippet": clean_snippet(item.get("snippet", ""))
+            })
+
+        return articles
+
+    except requests.exceptions.HTTPError as e:
+        # Log HTTP error and return empty result
+        print(f"Serper API error: {e}")
+        print(f"Response message: {response.text}")
+        return []
+
+
 

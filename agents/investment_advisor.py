@@ -1,33 +1,55 @@
 from langchain_openai import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
 from langchain.schema import HumanMessage
 from utils.config import OPENAI_API_KEY
 
-# Initialize LLM
+# Default LLM instance used across the application for consistency
 llm = ChatOpenAI(
     temperature=0.4,
     model="gpt-3.5-turbo",
     openai_api_key=OPENAI_API_KEY
 )
 
-def compare_investments(summaries: dict) -> str:
+def compare_investments(summaries: dict[str, str], model=llm) -> str:
     """
-    Given a dictionary of summaries per company, generates a ranked investment recommendation.
+    Uses an LLM to compare company summaries and produce a ranked investment outlook.
+
+    Args:
+        summaries (dict): { "CompanyName": "LLM-generated summary" }
+        model: Optional override of the default LLM instance.
+
+    Returns:
+        str: Markdown-formatted analysis ranking investment opportunities.
     """
-    summary_text = "\n\n".join([f"{company}:\n{summary}" for company, summary in summaries.items()])
+    if not summaries:
+        return "No company summaries provided to generate investment advice."
 
-    prompt = f"""
-You are an experienced investment analyst. Based on the following summaries for FAANG companies, provide:
+    # Concatenate company summaries into one structured string for prompt context
+    company_summary_block = "\n\n".join(
+        [f"**{company}**:\n{summary.strip()}" for company, summary in summaries.items()]
+    )
 
-1. A ranked list from best to worst investment **as of Q1 2025**
-2. A short justification (2-3 sentences) for each company
-3. Overall recommendation or caution for investors
+    # Prompt to guide the LLM in generating a ranked, professional outlook
+    prompt_template = ChatPromptTemplate.from_template("""
+You are a senior investment analyst creating a summary for an internal strategy memo.
 
-Make the analysis professional, concise, and suitable for a report.
-    
+Using the company summaries below, generate:
+
+1. A **ranked list (1st to 5th)** showing which companies are the best investments in Q1 2025.
+2. A **brief justification** (1-2 sentences) per company.
+3. A final **overall recommendation** or warning for investors.
+
+Be concise, professional, and use markdown formatting with bold, bullets, or headers where appropriate.
+
 Company Summaries:
-{summary_text}
-"""
+{company_summary_block}
+""")
 
-    messages = [HumanMessage(content=prompt)]
-    response = llm(messages)
+    # Format the prompt and invoke the model
+    prompt = prompt_template.format_messages(company_summary_block=company_summary_block)
+    response = model.invoke(prompt)
+
     return response.content
+
+
+
