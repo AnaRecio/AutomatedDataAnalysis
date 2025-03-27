@@ -1,76 +1,76 @@
 # FAANG Investment Report - Q1 2025
 
 ## Apple
-- Stock behavior and market reaction: Apple's stock rose following the Q1 2025 earnings call where the company beat EPS forecast.
-- Earnings or product developments: Apple reported an EPS of $2.40, surpassing the forecast of $2.36, indicating a positive surprise of approximately 1.7%.
-- Strategic actions or partnerships: Apple's new CFO appointment and strong iPhone holiday sales were highlighted ahead of the Q1 2025 earnings release.
-- Key risks, controversies, or signals: Analysts are closely watching for signs of continued growth and innovation from Apple.
-- Overall investment sentiment: Positive. Apple's strong earnings performance and product developments in Q1 2025 indicate a positive outlook for investors.
+- Stock behavior and market reaction: Apple's stock rose after the Q1 2025 earnings report, with EPS beating forecasts by 1.7%.
+- Earnings or product developments: Apple reported an EPS of $2.40, surpassing the forecast of $2.36, indicating positive performance.
+- Strategic actions or partnerships: Apple's new CFO appointment and strong iPhone holiday sales contributed to the positive Q1 2025 earnings.
+- Key risks, controversies, or signals: Analysts are closely watching for signs of Apple's stock stability and growth potential ahead of the earnings report.
+- Overall investment sentiment: Positive, given the strong earnings performance and market reaction to Apple's Q1 2025 results.
 
 ## Amazon
-- Stock behavior and market reaction: Amazon stock fell after the first quarter sales outlook disappointed investors, leading to a decline in share price.
-- Earnings or product developments: Amazon reported strong fourth quarter earnings but missed on Q1 guidance, causing concern among investors.
-- Strategic actions or partnerships: No specific strategic actions or partnerships were highlighted in the news.
-- Key risks, controversies, or signals: The lower-than-expected Q1 guidance and subsequent stock price decline indicate potential risks in Amazon's future performance.
-- Overall investment sentiment: Neutral. The mixed results from Amazon's earnings report and the stock price reaction suggest a cautious approach to investing in the company at this time.
+- Stock behavior and market reaction: Amazon's stock price fell after the company reported its fourth quarter earnings and provided a disappointing outlook for Q1, leading to a decrease in share value.
+- Earnings or product developments: Amazon beat expectations for Q4 earnings but missed on Q1 guidance, causing concern among investors.
+- Strategic actions or partnerships: There were no specific strategic actions or partnerships reported during Q1 2025 for Amazon.
+- Key risks, controversies, or signals: The lower-than-expected guidance for Q1 raised concerns about Amazon's future performance and growth potential.
+- Overall investment sentiment: Neutral. The mixed performance in Q4 earnings and disappointing Q1 guidance have created uncertainty about Amazon's future trajectory, warranting a cautious approach to investment decisions.
 
 ## Meta
-- Stock behavior and market reaction: Meta beat revenue expectations in Q4 2024 but provided a muted outlook for Q1 2025, leading to mixed signals and a decline in stock price due to concerns about future sales.
-- Earnings or product developments: Meta's Q4 earnings rose 50% to $8.02 per share, with revenue climbing 21% to $48.38 billion, driven by an AI push, leading Wall Street to acknowledge Meta's ability to invest further.
-- Strategic actions or partnerships: Despite the positive earnings, Cathie Wood selling Meta shares contributed to the downward pressure on the stock, raising questions about market trends and Meta's costs related to the Metaverse.
-- Key risks, controversies, or signals: Meta's higher-than-expected operating expenses for 2025 and the uncertainty surrounding the company's future outlook pose risks to investors and may impact the stock's performance.
-- Overall investment sentiment: Neutral. The mixed signals from Meta's Q4 earnings beat and muted Q1 outlook, along with concerns about future expenses and market trends, warrant a cautious approach to investing in Meta stock at this time.
+- Stock behavior and market reaction: Meta beat revenue expectations in Q4 2025, but the outlook for Q1 sales was muted, leading to mixed signals and a decline in stock value.
+- Earnings or product developments: Meta's earnings rose by 50% to $8.02 per share, with revenue climbing by 21% to $48.38 billion, driven by investments in AI technology.
+- Strategic actions or partnerships: Meta's high operating expenses for 2025 indicate a commitment to investing in future growth opportunities, earning praise from Wall Street analysts.
+- Key risks, controversies, or signals: Cathie Wood selling Meta shares contributed to the decline in stock value, raising concerns about market trends and Metaverse costs impacting Meta's performance.
+- Overall investment sentiment: Neutral. While Meta's strong earnings and revenue growth are positive indicators, the mixed signals, muted outlook, and market trends suggest a cautious approach to investing in META stock.
 
 ## Google
-- Stock behavior and market reaction: Google stock tumbled after parent Alphabet reported Q4 earnings and issued a higher than expected outlook for 2025 capital spending.
-- Earnings or product developments: Q1 earnings estimates for Google have steadily come in.
-- Strategic actions or partnerships: No specific strategic actions or partnerships were highlighted in the news.
-- Key risks, controversies, or signals: Google's higher than expected outlook for 2025 capital spending caused a negative market reaction.
-- Overall investment sentiment: Neutral
+- Stock behavior and market reaction: Google parent Alphabet's stock saw a slight decline of around 3% in Q1 2025.
+- Earnings or product developments: Google was highlighted in Zacks Earnings Trends report, indicating positive earnings estimates for the quarter.
+- Strategic actions or partnerships: No specific strategic actions or partnerships were reported for Google in Q1 2025.
+- Key risks, controversies, or signals: Amazon's stock falling after disappointing Q1 sales outlook could be a signal for potential risks in the tech sector.
+- Overall investment sentiment: Neutral. Despite a slight decline in stock price, positive earnings estimates indicate stability for Google in Q1 2025.
 
 ## Netflix
-- Stock behavior and market reaction: Netflix stock has surged by 70% in the past 12 months, with a 13% increase in post-earnings trading on January 21.
-- Earnings or product developments: Analysts upgraded estimates on potential U.S. price hikes and ad growth, leading to a rise in Netflix shares.
-- Strategic actions or partnerships: JPMorgan remains bullish on Netflix stock, while Loop Capital warns of subdued engagement.
-- Key risks, controversies, or signals: Netflix's current stock price of almost $920 per share trades at around 40x consensus 2025 earnings, which some view as expensive.
-- Overall investment sentiment: Neutral. While Netflix has shown strong financial performance and market growth, concerns about stock valuation may warrant caution.
+- Stock behavior: Netflix stock has seen a significant increase of 70% in the past 12 months, with a 13% climb in post-earnings trading on January 21.
+- Earnings/developments: Analysts have upgraded estimates on potential U.S. price hikes and ad growth, contributing to the rise in Netflix shares.
+- Strategic actions: JPMorgan remains bullish on Netflix stock, citing solid financials, while Loop Capital warns of subdued engagement.
+- Key risks: Netflix trades at around 40x consensus 2025 earnings, which some view as expensive.
+- Overall investment sentiment: Positive, as Netflix continues to see growth in stock price and potential strategic actions.
 
 ## Financial Valuation Overview
 
 | Company | Price | Market Cap | P/E Ratio | 52W Low | 52W High |
 | --- | --- | --- | --- | --- | --- |
-| Apple | $224.09 | $3.37T | 35.63 | $164.08 | $260.10 |
-| Amazon | $201.26 | $2.13T | 36.39 | $151.61 | $242.52 |
-| Meta | $602.29 | $1.53T | 25.21 | $414.50 | $740.91 |
-| Google | $162.19 | $1.99T | 20.17 | $147.22 | $207.05 |
-| Netflix | $976.00 | $417.49B | 49.29 | $542.01 | $1064.50 |
+| Apple | $223.85 | $3.36T | 35.59 | $164.08 | $260.10 |
+| Amazon | $201.36 | $2.13T | 36.41 | $151.61 | $242.52 |
+| Meta | $602.58 | $1.53T | 25.22 | $414.50 | $740.91 |
+| Google | $162.24 | $1.99T | 20.18 | $147.22 | $207.05 |
+| Netflix | $976.72 | $417.80B | 49.33 | $542.01 | $1064.50 |
 
 ## Valuation Analysis
 
-1. Based on the P/E ratio and market cap, Netflix appears to be overvalued with a high P/E ratio of 49.29 and a market cap of $417.49B.
+1. Based on the P/E ratio and market cap, Netflix appears to be overvalued with a high P/E ratio of 49.33 and a market cap of $417.80B. On the other hand, Meta seems undervalued with a lower P/E ratio of 25.22 and a market cap of $1.53T.
 
-2. An outlier in this data is Meta, which has a lower P/E ratio of 25.21 compared to the other tech giants like Apple, Amazon, and Netflix. Despite this, Meta has a market cap of $1.53T, which is still significant.
+2. An outlier in this data is Netflix, with a significantly higher P/E ratio compared to the other companies listed. This indicates that investors are willing to pay a premium for Netflix's future earnings potential.
 
-3. Investment takeaway: Investors may want to consider companies like Meta with a lower P/E ratio and a relatively lower market cap compared to other tech giants. However, it is important to conduct further research and analysis before making any investment decisions.
+3. Investment takeaway: Investors should consider the valuation metrics, such as P/E ratio and market cap, when making investment decisions. Companies with lower P/E ratios and market caps may present better value opportunities, while those with high P/E ratios like Netflix may carry more risk of overvaluation.
 
 ## Final Investment Recommendation
 
 ### Ranked List of Best Investments in Q1 2025:
 1. **Apple**
 2. **Netflix**
-3. **Meta**
-4. **Google**
+3. **Google**
+4. **Meta**
 5. **Amazon**
 
-### Brief Justification:
-1. **Apple**: Strong earnings performance and positive product developments indicate a positive outlook for investors.
-2. **Netflix**: Surge in stock price and analyst upgrades suggest growth potential, despite concerns about stock valuation.
-3. **Meta**: Mixed signals from earnings beat and muted outlook, along with cost concerns, warrant caution.
-4. **Google**: Negative market reaction due to higher than expected capital spending outlook raises concerns.
-5. **Amazon**: Mixed results and decline in stock price signal potential risks in future performance.
+### Justification:
+1. **Apple**: Strong earnings performance, positive market reaction, and strategic actions like new CFO appointment make it a top investment choice.
+2. **Netflix**: Significant stock price increase, analyst upgrades, and bullish sentiment from JPMorgan support its position as a good investment.
+3. **Google**: Positive earnings estimates and stable stock behavior despite a slight decline indicate a favorable investment opportunity.
+4. **Meta**: Mixed signals, muted outlook, and concerns about market trends make it a less favorable investment compared to others.
+5. **Amazon**: Disappointing Q1 guidance and uncertainty about future performance create a cautious approach to investing in Amazon.
 
 ### Overall Recommendation:
-Investors should consider **Apple** and **Netflix** as the top investment choices in Q1 2025 due to their strong financial performance and growth potential. However, caution is advised with **Meta**, **Google**, and **Amazon** due to mixed signals, cost concerns, and potential risks in future performance.
+Investors should consider **Apple** and **Netflix** as top investment choices in Q1 2025 due to their strong performance, positive market sentiment, and strategic actions. **Google** also presents a stable investment option, while **Meta** and **Amazon** may require a more cautious approach given the mixed signals and uncertainties surrounding their future performance.
 
 ## Sources
 
@@ -82,8 +82,8 @@ Investors should consider **Apple** and **Netflix** as the top investment choice
 - https://finance.yahoo.com/news/analysts-expect-apples-q1-2025-170017716.html
 
 ### Amazon
+- https://247wallst.com/investing/2025/03/26/amazon-stock-amzn-price-prediction-and-forecast/
 - https://finance.yahoo.com/news/amazon-stock-falls-after-first-quarter-sales-outlook-disappoints-192245188.html
-- https://247wallst.com/investing/2025/03/05/amazon-stock-amzn-price-prediction-and-forecast/
 - https://www.financemagnates.com/trending/why-is-amazon-stock-down-today-amzn-price-hits-2-month-lows-amid-high-price-predictions/
 - https://www.fool.com/investing/2025/02/11/amazon-shares-sink-on-outlook-is-this-a-buying-opp/
 - https://deadline.com/2025/02/amazon-q4-earnings-holiday-sales-q1-outlook-1236280624/
@@ -100,7 +100,7 @@ Investors should consider **Apple** and **Netflix** as the top investment choice
 - https://www.tradingview.com/news/zacks:1421dca9d094b:0-zacks-earnings-trends-highlights-meta-tesla-nvidia-google-microsoft-amazon-and-apple/
 - https://247wallst.com/investing/2025/03/26/amazon-stock-amzn-price-prediction-and-forecast/
 - https://finance.yahoo.com/news/amazon-stock-falls-after-first-quarter-sales-outlook-disappoints-192245188.html
-- https://www.investors.com/news/technology/google-stock-googl-google-earnings-q42024/
+- https://www.fool.com/investing/2025/01/02/is-alphabet-a-top-stock-to-buy-for-2025/
 
 ### Netflix
 - https://finance.yahoo.com/news/70-12-months-buy-netflix-142547742.html
